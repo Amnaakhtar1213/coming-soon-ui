@@ -43,7 +43,7 @@ HERE'S WHAT THE APP LOOK LIKE:
 ## LIVE DEMO 🌐
 
 Check out the live preview:
-- [Click here for web-page live-demo]()
+- [Click here for web-page live-demo]( https://amnaakhtar1213.github.io/coming-soon-ui/)
 
 ----------------------------------
 
