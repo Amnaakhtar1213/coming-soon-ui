@@ -335,3 +335,85 @@ margin-bottom: 3rem;
     justify-content: center;
   }
 }
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+    overflow-y: auto; /* allow scrolling if content is tall */
+  }
+
+  .container {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .logo {
+    flex-direction: column;   /* stack icon + text */
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .logo-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+  .logo span {
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+  }
+
+  .hero h1 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+  .hero p {
+    font-size: 0.9rem;
+    max-width: 100%;
+    line-height: 1.4;
+  }
+
+  .countdown {
+    flex-direction: column;   /* stack time blocks vertically */
+    gap: 0.75rem;
+  }
+  .separator {
+    display: none;            /* hide separators on stacked layout */
+  }
+  .time-block {
+    min-width: auto;
+    width: 100%;
+    padding: 0.75rem;
+  }
+  .time-value {
+    font-size: 1.5rem;
+  }
+
+  .email-form {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+  .input-group {
+    padding: 0.75rem;
+  }
+  .email-form button {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.95rem;
+    padding: 0.75rem;
+  }
+
+  .success-msg {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+
+  .socials {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .socials a {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+}
